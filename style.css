@@ -1,0 +1,1068 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  position: relative;
+  margin-left: 22rem;
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  font-family: Nunito Sans;
+}
+
+#mainBg {
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  width: 128rem;
+  height: 533.9rem;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+#logo {
+  position: absolute;
+  top: 3.3rem;
+  left: 55.8rem;
+  width: 16.4rem;
+  height: 4.8rem;
+  border: 0.1rem solid #707070;
+}
+
+#navItems {
+  position: absolute;
+  top: 10.1rem;
+  left: 24.9rem;
+  width: 78.2rem;
+  height: 2.6rem;
+}
+#navItems ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#navItems ul li {
+  padding: 2rem;
+  list-style: none;
+}
+#navItems ul li a {
+  font-size: 1.9rem;
+  font-weight: 600;
+  font-family: Segoe UI;
+}
+
+#line {
+  position: absolute;
+  top: 15.3rem;
+  left: -21.9185rem;
+  width: 171.8rem;
+  height: 0.3rem;
+  border: 1px solid #707070;
+  opacity: 1;
+}
+
+#section1 #heading1 {
+  position: absolute;
+  top: 25.4rem;
+  left: 12.1rem;
+  width: 54.8rem;
+  height: 10.8rem;
+  text-align: left;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  font-size: 4rem;
+  font-family: Nunito Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  font-weight: 900;
+  line-height: 5.4rem;
+  font-family: Nunito Sans;
+  letter-spacing: 0;
+  color: #000000;
+}
+#section1 #heading2 {
+  position: absolute;
+  top: 38.2rem;
+  left: 12.1rem;
+  width: 52rem;
+  height: 12rem;
+  text-align: left;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  font-size: 1.8rem;
+  font-family: Nunito Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 2.4rem;
+}
+#section1 #btn1 {
+  /* Layout Properties */
+  position: absolute;
+  top: 56.4rem;
+  left: 12.1rem;
+  width: 24.7rem;
+  height: 6.5rem;
+  /* UI Properties */
+  background: #1492E6 0% 0% no-repeat padding-box;
+  box-shadow: 0rem 1.6rem 4.8rem rgba(0, 0, 0, 0.1607843137);
+  border-radius: 3.3rem;
+  opacity: 1;
+  /* Typography */
+  text-align: center;
+  font: normal normal 600 2.3rem Nunito Sans;
+  line-height: 3.1rem;
+  letter-spacing: 0rem;
+  color: #FFFFFF;
+  /* Additional Styling (optional) */
+  border: none;
+  cursor: pointer;
+}
+#section1 img {
+  position: absolute;
+  top: 15.6rem;
+  left: 73.4rem;
+  width: 50.9rem;
+  height: 51.8rem;
+}
+
+#section2 #hd1 {
+  position: absolute;
+  top: 83.3rem;
+  left: 19.6rem;
+  width: 88.8rem;
+  height: 4.7rem;
+  text-align: left;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  font-size: 4rem;
+  font-family: Nunito Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+#section2 #myCard1 {
+  position: absolute;
+  top: 94rem;
+  left: 13.8rem;
+  width: 30.8rem;
+  height: 32rem;
+  border-radius: 1.8rem;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0.3rem 0.6rem rgba(0, 0, 0, 0.1607843137);
+  opacity: 1;
+}
+#section2 #myCard1 #cardHeading1 {
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  font-weight: bold;
+  position: absolute;
+  top: 3.8rem;
+  left: 5.9rem;
+  width: 19rem;
+  height: 2.4rem;
+}
+#section2 #myCard1 #cardItem1 {
+  position: absolute;
+  top: 8rem;
+  left: 1.9rem;
+  width: 27.5rem;
+  height: 19.2rem;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+}
+#section2 #myCard2 {
+  position: absolute;
+  top: 94rem;
+  left: 48.6rem;
+  width: 30.8rem;
+  height: 32rem;
+  border-radius: 1.8rem;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0.3rem 0.6rem rgba(0, 0, 0, 0.1607843137);
+  opacity: 1;
+}
+#section2 #myCard2 #cardHeading2 {
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  font-weight: bold;
+  position: absolute;
+  top: 3.8rem;
+  left: 5.9rem;
+  width: 19rem;
+  height: 2.4rem;
+}
+#section2 #myCard2 #cardItem2 {
+  position: absolute;
+  top: 8rem;
+  left: 1.7rem;
+  width: 27.5rem;
+  height: 19.2rem;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+}
+#section2 #myCard3 {
+  position: absolute;
+  top: 94rem;
+  left: 83.4rem;
+  width: 30.8rem;
+  height: 32rem;
+  border-radius: 1.8rem;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0.3rem 0.6rem rgba(0, 0, 0, 0.1607843137);
+  opacity: 1;
+}
+#section2 #myCard3 #cardHeading3 {
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  font-weight: bold;
+  position: absolute;
+  top: 3.8rem;
+  left: 5.9rem;
+  width: 19rem;
+  height: 2.4rem;
+}
+#section2 #myCard3 #cardItem3 {
+  position: absolute;
+  top: 8rem;
+  left: 1.7rem;
+  width: 27.5rem;
+  height: 19.2rem;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+}
+#section2 #hd2 {
+  position: absolute;
+  top: 144.6rem;
+  left: 19.6rem;
+  width: 88.8rem;
+  height: 4.7rem;
+  text-align: left;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  font-size: 4rem;
+  font-family: Nunito Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+#section2 #img2 {
+  position: absolute;
+  top: 162.9rem;
+  left: 11.4rem;
+  width: 24.1rem;
+  height: 15.7rem;
+}
+#section2 #img3 {
+  position: absolute;
+  top: 160.4rem;
+  left: 49.5rem;
+  width: 24.4rem;
+  height: 18.8rem;
+}
+#section2 #img4 {
+  position: absolute;
+  top: 161.5rem;
+  left: 88.2rem;
+  width: 18.5rem;
+  height: 17.1rem;
+}
+#section2 #cardHeading4 {
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  font-weight: bold;
+  position: absolute;
+  top: 182.5rem;
+  left: 11.3rem;
+  width: 19rem;
+  height: 2.4rem;
+}
+#section2 #cardItem4 {
+  position: absolute;
+  top: 186.5rem;
+  left: 11.3rem;
+  width: 32.8rem;
+  height: 16.8rem;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+}
+#section2 #cardHeading5 {
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  font-weight: bold;
+  position: absolute;
+  top: 182.5rem;
+  left: 49.3rem;
+  width: 19rem;
+  height: 2.4rem;
+}
+#section2 #cardItem5 {
+  position: absolute;
+  top: 186.5rem;
+  left: 49.3rem;
+  width: 32.8rem;
+  height: 16.8rem;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+}
+#section2 #cardHeading6 {
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  font-weight: bold;
+  position: absolute;
+  top: 182.5rem;
+  left: 87.5rem;
+  width: 19rem;
+  height: 2.4rem;
+}
+#section2 #cardItem6 {
+  position: absolute;
+  top: 186.5rem;
+  left: 87.5rem;
+  width: 32.8rem;
+  height: 16.8rem;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+}
+
+#section3 #hd3 {
+  position: absolute;
+  top: 217.1rem;
+  left: 19.6rem;
+  width: 88.8rem;
+  height: 4.7rem;
+  text-align: left;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  font-size: 4rem;
+  font-family: Nunito Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+#section3 #icon1 {
+  position: absolute;
+  top: 230.4rem;
+  left: 10.5rem;
+  width: 7rem;
+  height: 7rem;
+}
+#section3 #iconHd1 {
+  position: absolute;
+  top: 232.3rem;
+  left: 21.4rem;
+  width: 25.3rem;
+  height: 3.2rem;
+  text-align: left;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  font-size: 2.4rem;
+  font-family: Nunito Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+#section3 #iconText1 {
+  position: absolute;
+  top: 238.8rem;
+  left: 10.5rem;
+  width: 64.4rem;
+  height: 5.6rem;
+  text-align: left;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  font-size: 1.8rem;
+  font-family: Nunito Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+#section3 #iButton1 {
+  /* Layout Properties */
+  position: absolute;
+  top: 246.6rem;
+  left: 10.5rem;
+  width: 24.7rem;
+  height: 6.5rem;
+  /* UI Properties */
+  background: #1492E6 0% 0% no-repeat padding-box;
+  box-shadow: 0rem 1.6rem 4.8rem rgba(0, 0, 0, 0.1607843137);
+  border-radius: 3.3rem;
+  opacity: 1;
+  /* Typography */
+  text-align: center;
+  font: normal normal 600 2.3rem Nunito Sans;
+  line-height: 3.1rem;
+  letter-spacing: 0rem;
+  color: #FFFFFF;
+  /* Additional Styling (optional) */
+  border: none;
+  cursor: pointer;
+}
+#section3 #icon2 {
+  position: absolute;
+  top: 255.5rem;
+  left: 74.7rem;
+  width: 6.2rem;
+  height: 6.2rem;
+}
+#section3 #iconHd2 {
+  position: absolute;
+  top: 257rem;
+  left: 83.8rem;
+  width: 25.3rem;
+  height: 32rem;
+  text-align: left;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  font-size: 2.4rem;
+  font-family: Nunito Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+#section3 #iconText2 {
+  position: absolute;
+  top: 262.9rem;
+  left: 74.7rem;
+  width: 47.1rem;
+  height: 5.6rem;
+  text-align: left;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  font-size: 1.8rem;
+  font-family: Nunito Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+#section3 #iButton2 {
+  /* Layout Properties */
+  position: absolute;
+  top: 271.8rem;
+  left: 74.7rem;
+  width: 24.7rem;
+  height: 6.5rem;
+  /* UI Properties */
+  background: #1492E6 0% 0% no-repeat padding-box;
+  box-shadow: 0rem 1.6rem 4.8rem rgba(0, 0, 0, 0.1607843137);
+  border-radius: 3.3rem;
+  opacity: 1;
+  /* Typography */
+  text-align: center;
+  font: normal normal 600 2.3rem Nunito Sans;
+  line-height: 3.1rem;
+  letter-spacing: 0rem;
+  color: #FFFFFF;
+  /* Additional Styling (optional) */
+  border: none;
+  cursor: pointer;
+}
+#section3 #icon3 {
+  position: absolute;
+  top: 287.9rem;
+  left: 10.5rem;
+  width: 7.8rem;
+  height: 7.8rem;
+}
+#section3 #iconHd3 {
+  position: absolute;
+  top: 290rem;
+  left: 20.7rem;
+  width: 25.3rem;
+  height: 3.2rem;
+  text-align: left;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  font-size: 2.4rem;
+  font-family: Nunito Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+#section3 #iconText3 {
+  position: absolute;
+  top: 297.8rem;
+  left: 10.5rem;
+  width: 64.4rem;
+  height: 5.6rem;
+  text-align: left;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  font-size: 1.8rem;
+  font-family: Nunito Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+#section3 #iButton3 {
+  /* Layout Properties */
+  position: absolute;
+  top: 305.9rem;
+  left: 10.5rem;
+  width: 24.7rem;
+  height: 6.5rem;
+  /* UI Properties */
+  background: #1492E6 0% 0% no-repeat padding-box;
+  box-shadow: 0rem 1.6rem 4.8rem rgba(0, 0, 0, 0.1607843137);
+  border-radius: 3.3rem;
+  opacity: 1;
+  /* Typography */
+  text-align: center;
+  font: normal normal 600 2.3rem Nunito Sans;
+  line-height: 3.1rem;
+  letter-spacing: 0rem;
+  color: #FFFFFF;
+  /* Additional Styling (optional) */
+  border: none;
+  cursor: pointer;
+}
+#section3 #icon4 {
+  position: absolute;
+  top: 320.1rem;
+  left: 74.2rem;
+  width: 9rem;
+  height: 9rem;
+}
+#section3 #iconHd4 {
+  position: absolute;
+  top: 323rem;
+  left: 84.5rem;
+  width: 25.3rem;
+  height: 3.2rem;
+  text-align: left;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  font-size: 2.4rem;
+  font-family: Nunito Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+#section3 #iconText4 {
+  position: absolute;
+  top: 330.2rem;
+  left: 74.7rem;
+  width: 47.1rem;
+  height: 5.6rem;
+  text-align: left;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  font-size: 2.1rem;
+  font-family: Nunito Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+#section3 #iButton4 {
+  /* Layout Properties */
+  position: absolute;
+  top: 338.7rem;
+  left: 74.2rem;
+  width: 24.7rem;
+  height: 6.5rem;
+  /* UI Properties */
+  background: #1492E6 0% 0% no-repeat padding-box;
+  box-shadow: 0rem 1.6rem 4.8rem rgba(0, 0, 0, 0.1607843137);
+  border-radius: 3.3rem;
+  opacity: 1;
+  /* Typography */
+  text-align: center;
+  font: normal normal 600 2.3rem Nunito Sans;
+  line-height: 3.1rem;
+  letter-spacing: 0rem;
+  color: #FFFFFF;
+  /* Additional Styling (optional) */
+  border: none;
+  cursor: pointer;
+}
+
+#section4 #hd4 {
+  position: absolute;
+  top: 364.1rem;
+  left: 45.6rem;
+  width: 36.8rem;
+  height: 4.7rem;
+  text-align: left;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  font-size: 3.5rem;
+  font-family: Nunito Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+#section4 #hd5 {
+  position: absolute;
+  top: 447.6rem;
+  left: 19.6rem;
+  width: 88.8rem;
+  height: 4.7rem;
+  text-align: left;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  font-size: 3.5rem;
+  font-family: Nunito Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+#section4 #bgHolder {
+  position: absolute;
+  top: 376.4rem;
+  left: 5.9rem;
+  width: 109.7rem;
+  height: 36.3rem;
+  /* Background */
+  background-color: #F8FAFC;
+  background-position: 0% 0%;
+  background-repeat: no-repeat;
+  background-origin: padding-box;
+  /* Box Shadow */
+  box-shadow: 0px 16px 48px rgba(0, 0, 0, 0.1607843137);
+  /* Border Radius */
+  border-radius: 42px;
+  /* Opacity */
+  opacity: 1;
+}
+#section4 #hd5 {
+  position: absolute;
+  top: 381.7rem;
+  left: 17.9rem;
+  width: 27.5rem;
+  height: 3.4rem;
+  text-align: left;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  font-size: 2.5rem;
+  font-family: Nunito Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+#section4 #pH1 {
+  /* Background */
+  background-color: #FFFFFF;
+  background-position: 0% 0%;
+  background-repeat: no-repeat;
+  background-origin: padding-box;
+  /* Box Shadow */
+  box-shadow: 0px 16px 48px rgba(0, 0, 0, 0.1607843137);
+  /* Border Radius */
+  border-radius: 30px;
+  /* Opacity */
+  opacity: 1;
+  position: absolute;
+  top: 391.5rem;
+  left: 18rem;
+  width: 28.5rem;
+  height: 26.3rem;
+}
+#section4 #pH2 {
+  /* Background */
+  background-color: #FFFFFF;
+  background-position: 0% 0%;
+  background-repeat: no-repeat;
+  background-origin: padding-box;
+  /* Box Shadow */
+  box-shadow: 0px 16px 48px rgba(0, 0, 0, 0.1607843137);
+  /* Border Radius */
+  border-radius: 30px;
+  /* Opacity */
+  opacity: 1;
+  position: absolute;
+  top: 391.5rem;
+  left: 49rem;
+  width: 28.4rem;
+  height: 26.3rem;
+}
+#section4 #pH3 {
+  /* Background */
+  background-color: #FFFFFF;
+  background-position: 0% 0%;
+  background-repeat: no-repeat;
+  background-origin: padding-box;
+  /* Box Shadow */
+  box-shadow: 0px 16px 48px rgba(0, 0, 0, 0.1607843137);
+  /* Border Radius */
+  border-radius: 30px;
+  /* Opacity */
+  opacity: 1;
+  position: absolute;
+  top: 391.5rem;
+  left: 80.1rem;
+  width: 28.5rem;
+  height: 26.3rem;
+}
+#section4 #bgHolderLogo {
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+  top: 380.3rem;
+  left: 10.2rem;
+  width: 6.4rem;
+  height: 6.3rem;
+}
+#section4 #pHDp1 {
+  position: absolute;
+  top: 394.3rem;
+  left: 21.1rem;
+  width: 4.2rem;
+  height: 4.3rem;
+}
+#section4 #stars1 {
+  position: absolute;
+  top: 394.3rem;
+  left: 37.4rem;
+  width: 6.3rem;
+  height: 1.4rem;
+}
+#section4 #pHHd1 {
+  position: absolute;
+  top: 394.3rem;
+  left: 26.1rem;
+  width: 5.4rem;
+  height: 1.8rem;
+  text-align: left;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  font-size: 1.3rem;
+  font-family: Nunito Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+#section4 #pHPost1 {
+  position: absolute;
+  top: 396.4rem;
+  left: 26.1rem;
+  width: 2.6rem;
+  height: 1.8rem;
+  text-align: left;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  font-size: 1.3rem;
+  font-family: Nunito Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  color: #615C5C;
+}
+#section4 #pHTxt1 {
+  position: absolute;
+  top: 401.7rem;
+  left: 20.7rem;
+  width: 23.7rem;
+  height: 12.6rem;
+  text-align: left;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  font-size: 1.3rem;
+  font-family: Nunito Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+#section4 #pHDp2 {
+  position: absolute;
+  top: 393.6rem;
+  left: 51.8rem;
+  width: 4.2rem;
+  height: 4.4rem;
+}
+#section4 #stars2 {
+  position: absolute;
+  top: 394.3rem;
+  left: 67.6rem;
+  width: 6.3rem;
+  height: 1.4rem;
+}
+#section4 #pHHd2 {
+  position: absolute;
+  top: 394.3rem;
+  left: 57.1rem;
+  width: 8rem;
+  height: 1.6rem;
+  text-align: left;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  font-family: Nunito Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+#section4 #pHPost2 {
+  position: absolute;
+  top: 396.4rem;
+  left: 57.1rem;
+  width: 12rem;
+  height: 1.8rem;
+  text-align: left;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  font-size: 1.3rem;
+  font-family: Nunito Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  color: #615C5C;
+}
+#section4 #pHTxt2 {
+  position: absolute;
+  top: 401.7rem;
+  left: 51.4rem;
+  width: 23.7rem;
+  height: 12.6rem;
+  text-align: left;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  font-size: 1.3rem;
+  font-family: Nunito Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+#section4 #pHDp3 {
+  position: absolute;
+  top: 393.6rem;
+  left: 83.6rem;
+  width: 4.4rem;
+  height: 4.4rem;
+}
+#section4 #stars3 {
+  position: absolute;
+  top: 394.3rem;
+  left: 99.4rem;
+  width: 6.3rem;
+  height: 1.4rem;
+}
+#section4 #pHHd3 {
+  position: absolute;
+  top: 394.3rem;
+  left: 89.7rem;
+  width: 7.2rem;
+  height: 1.8rem;
+  text-align: left;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  font-size: 1.3rem;
+  font-family: Nunito Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+#section4 #pHPost3 {
+  position: absolute;
+  top: 396.4rem;
+  left: 89.7rem;
+  width: 14.7rem;
+  height: 1.6rem;
+  text-align: left;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  font-family: Nunito Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  color: #615C5C;
+}
+#section4 #pHTxt3 {
+  position: absolute;
+  top: 401.7rem;
+  left: 82.8rem;
+  width: 23.7rem;
+  height: 12.6rem;
+  text-align: left;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  font-size: 1.3rem;
+  font-family: Nunito Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+#section4 #hd6 {
+  position: absolute;
+  top: 447.6rem;
+  left: 19.6rem;
+  width: 88.8rem;
+  height: 4.7rem;
+  text-align: left;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  font-size: 3.5rem;
+  font-family: Nunito Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  line-height: 4.7rem;
+  font-weight: bold;
+}
+#section4 #iconHd5 {
+  position: absolute;
+  top: 476.2rem;
+  left: 23.2rem;
+  width: 11.8rem;
+  height: 2.4rem;
+  text-align: left;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  font-size: 1.8rem;
+  font-family: Nunito Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  line-height: 2.4rem;
+}
+#section4 #icon5 {
+  position: absolute;
+  top: 468.6rem;
+  left: 18.8rem;
+  width: 18.5rem;
+  height: 5.8rem;
+  background: transparent 0% 0% no-repeat padding-box;
+}
+#section4 #iconHd6 {
+  position: absolute;
+  top: 476.2rem;
+  left: 57.8rem;
+  width: 19.2rem;
+  height: 2.4rem;
+  text-align: left;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  font-size: 1.8rem;
+  font-family: Nunito Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  line-height: 2.4rem;
+}
+#section4 #icon6 {
+  position: absolute;
+  top: 466.5rem;
+  left: 57.4rem;
+  width: 17.7rem;
+  height: 10rem;
+}
+#section4 #iconHd7 {
+  position: absolute;
+  top: 476.2rem;
+  left: 97.9rem;
+  width: 6.8rem;
+  height: 2.4rem;
+  text-align: left;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  font-size: 1.8rem;
+  font-family: Nunito Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  line-height: 2.4rem;
+}
+#section4 #icon7 {
+  position: absolute;
+  top: 466.6rem;
+  left: 96.8rem;
+  width: 8.9rem;
+  height: 8.9rem;
+}
+#section4 #blackBox {
+  position: absolute;
+  top: 497.5rem;
+  left: 0rem;
+  width: 128rem;
+  height: 36.9rem;
+  background: #000000 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  opacity: 1;
+}
+#section4 #footerTxt {
+  position: absolute;
+  top: 526.3rem;
+  left: 59.8rem;
+  width: 12.6rem;
+  height: 2.4rem;
+  text-align: left;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  font-size: 1.8rem;
+  font-family: Nunito Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  color: #FFFFFF;
+  text-align: center;
+}
+#section4 #copyrightSymbol {
+  position: absolute;
+  top: 526.2rem;
+  left: 56.4rem;
+  width: 0.8rem;
+  height: 2.4rem;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+/* Add this media query for mobile screens */
+@media (min-width: 640px) {
+  /* Adjust styles for mobile */
+  html {
+    font-size: 22.5%;
+  }
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 32.5%;
+  }
+}
+@media (min-width: 1024px) {
+  html {
+    font-size: 42.5%;
+  }
+}
+@media (min-width: 1280px) {
+  html {
+    font-size: 52.5%;
+  }
+}/*# sourceMappingURL=style.css.map */
